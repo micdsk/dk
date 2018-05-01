@@ -2,18 +2,10 @@ package imagecenter;
 
 import java.util.Map;
 import org.testng.annotations.Test;
-import vacation.TestScript.api.APIBase2;
-import vacation.TestScript.base.VacationAPITests;
-import vacation.TestScript.utils.VacationAssert;
 
-/*****
- * 
- * 
- * @author micdsk
- *
- */
+
 //类名与Excel名相同
-public class imageWatermark extends VacationAPITests {
+public class imageWatermark extends VVAPITests {
 	@Test(description = "imageWatermark", dataProvider = "common")
 	
 	//方法名与Excel 中 sheet名相同
